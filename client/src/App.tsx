@@ -1,27 +1,12 @@
-import './App.css';
+
+import { Button } from '@/components/ui/button';
 
 function App() {
   return (
-    <div>
-      <div className="gradient"></div>
-      <div className="grid"></div>
-      <div className="container">
-        <h1 className="title">Under Construction</h1>
-        <p className="description">
-          Your app is under construction. It's being built right now!
-        </p>
-        <div className="dots">
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-        </div>
-        <footer className="footer">
-          Built with ❤️ by{" "}
-          <a href="https://app.build" target="_blank" className="footer-link">
-            app.build
-          </a>
-        </footer>
-      </div>
+    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+      <Button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+        hello
+      </Button>
     </div>
   );
 }
